@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sw_vers)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(cat \"/Users/michaelhachem/package.json\" 2>/dev/null; echo \"---- node_modules size ----\"; du -sh \"/Users/michaelhachem/node_modules\" 2>/dev/null)",
+      "Bash(rm -rf node_modules package.json package-lock.json)",
+      "Bash(ls -d node_modules package.json package-lock.json)",
+      "Bash(npm run *)",
+      "Bash(python3 -m http.server 8000)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:8000/)",
+      "Bash(curl -s http://localhost:8000/)"
+    ]
+  }
+}

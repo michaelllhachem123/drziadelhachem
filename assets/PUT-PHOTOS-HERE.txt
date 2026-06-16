@@ -1,0 +1,2 @@
+Put Dr. Ziad's photo here, e.g. dr-ziad.jpg
+Then follow the "Add Dr. Ziad's photo" steps in ../README.md

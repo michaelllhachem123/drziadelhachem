@@ -1,0 +1,473 @@
+/* ===== Dr. Ziad El Hachem — internationalization (EN / FR / AR) ===== */
+(function () {
+  "use strict";
+
+  const T = {
+    /* ============================ ENGLISH ============================ */
+    en: {
+      "topbar": "Available <strong>24/7 on call</strong> — your child is never alone with us",
+      "brand.role": "Pediatrics & Infectious Diseases",
+      "nav.home": "Home", "nav.about": "About", "nav.updates": "Updates", "nav.contact": "Contact",
+      "nav.feedback": "Feedback", "nav.cta": "Call to Book",
+
+      /* Home */
+      "home.cred": "Pediatrics & Infectious Diseases Specialist",
+      "hero.eyebrow": "Jbeil, Lebanon",
+      "hero.title": "You focus on the love.<br /><span class=\"accent\">We'll handle the worry.</span>",
+      "hero.lead": "<strong>Dr. Ziad El Hachem</strong> is a specialist in pediatrics and infectious diseases, and a well-known, trusted name for families across the Jbeil region. Unhurried attention, a hand to hold at 3 a.m., and the calm certainty that your child is in the very best care.",
+      "hero.cta1": "Visit & Contact",
+      "hero.cta2": "Meet Dr. Ziad",
+      "hero.assurance": "Always a call away — never hesitate.",
+      "portrait.caption": "Dr. Ziad's portrait",
+      "badge.text": "years caring<br />for children",
+      "trust.1": "Years caring for children",
+      "trust.2": "Hospitals in Jbeil",
+      "trust.3": "Reachable for emergencies",
+      "trust.4": "Child at the center — yours",
+      "home.care.eyebrow": "How we care",
+      "home.care.title": "Care your whole family can feel.",
+      "home.care.sub": "The difference isn't only medical expertise — it's attention, patience, and a doctor who truly knows your child.",
+      "home.care.link": "More about our care",
+      "home.upd.eyebrow": "From Dr. Ziad",
+      "home.upd.title": "Health tips & clinic updates",
+      "home.upd.sub": "Seasonal advice, reminders and announcements — straight from the doctor.",
+      "home.upd.read": "Read more",
+      "home.upd.link": "Read all updates",
+      "home.cta.title": "Have a question about your child?",
+      "home.cta.sub": "Reach the clinic in Jbeil, or call to book a consultation. We're here when you need us.",
+      "home.cta.btn": "Contact the clinic",
+
+      /* About */
+      "about.kicker": "About the doctor",
+      "about.h1": "Dr. Ziad El Hachem",
+      "about.tagline": "A specialist in pediatrics and infectious diseases — and a doctor parents trust with their first phone call.",
+      "about.eyebrow": "Who he is",
+      "about.title": "Expertise you can trust, attention you can feel.",
+      "about.p1": "Dr. Ziad El Hachem is a specialist in pediatrics and infectious diseases, and a well-known, trusted name for families across the Jbeil region. Parents come to him not only for his expertise, but for the rare quality of his attention.",
+      "about.p2": "He listens. He explains. He stays on the line until you can breathe again. His practice rests on a simple conviction: a child's health is too important to rush — so every consultation is given the time it deserves, and every family is treated as if it were his own.",
+      "about.point1": "Pediatrics from newborn to adolescent",
+      "about.point2": "Infectious diseases — flu, respiratory & childhood infections",
+      "about.point3": "Personally reachable for true emergencies, 24/7",
+      "about.photo": "Photo of Dr. Ziad",
+
+      "phil.eyebrow": "Our care",
+      "phil.title": "The most valuable thing we offer is peace of mind.",
+      "phil.sub": "Here, your child gets unhurried attention, careful judgment, and a doctor who answers when it matters. That is the difference families feel — and remember.",
+      "card1.title": "Unhurried consultations",
+      "card1.desc": "No conveyor belt. Your appointment is as long as your child needs it to be — questions welcomed, nothing skipped.",
+      "card2.title": "A doctor on call",
+      "card2.desc": "Fever at midnight? A worrying cough on a Sunday? You reach Dr. Ziad — not a stranger, not a queue, around the clock.",
+      "card3.title": "Care that remembers",
+      "card3.desc": "Your child is known here — their history, their quirks, their growth — not a new chart every visit.",
+      "card4.title": "Excellence without compromise",
+      "card4.desc": "The best judgment, the right referrals, the careful follow-up. When it's your child, \"good enough\" isn't.",
+      "pullquote": "“Bring us your worry. We've got them — and we've got you.”",
+
+      "serv.eyebrow": "Areas of care",
+      "serv.title": "Complete pediatric care, from the first breath onward.",
+      "s1.title": "Newborn & infant care", "s1.desc": "First check-ups, feeding, sleep and early development guidance.",
+      "s2.title": "Infections & fever", "s2.desc": "Expert assessment of flu, respiratory viruses and common childhood infections.",
+      "s3.title": "Vaccinations", "s3.desc": "Complete, on-schedule immunizations with clear guidance for parents.",
+      "s4.title": "Growth & development", "s4.desc": "Tracking milestones, nutrition and healthy growth at every age.",
+      "s5.title": "Routine check-ups", "s5.desc": "Regular wellness visits to keep your child thriving and on track.",
+      "s6.title": "Parental guidance", "s6.desc": "Honest answers and reassurance — because caring for a child is a partnership.",
+
+      /* Updates */
+      "upd.kicker": "Health tips & updates",
+      "upd.h1": "From Dr. Ziad's desk",
+      "upd.sub": "Seasonal advice, reminders and clinic announcements — written by the doctor, for the families he cares for.",
+      "post1.tag": "Seasonal health", "post1.date": "15 June 2026",
+      "post1.title": "Summer fevers: when to worry, and when to wait",
+      "post1.excerpt": "A high temperature is one of the most common reasons parents call. Here's a calm, practical guide to what's normal, what helps, and the signs that mean it's time to reach out.",
+      "post1.body1": "A high temperature is one of the most common reasons parents call — and most of the time, fever is simply a sign that your child's body is fighting an infection as it should. Keep your child comfortable, offer plenty of fluids, and watch how they behave, not just the number on the thermometer.",
+      "post1.body2": "Call us if a baby under three months has any fever, if a fever lasts more than three days, or if your child is unusually drowsy, breathing fast, or hard to wake. When in doubt, that's exactly what the on-call line is for.",
+      "post2.tag": "Everyday care", "post2.date": "2 June 2026",
+      "post2.title": "Keeping little ones hydrated through the heat",
+      "post2.body1": "As temperatures rise, young children lose fluids quickly and don't always ask for water. Offer small drinks often, dress them lightly, and avoid the strongest midday sun. For breastfed babies, more frequent feeds are usually all that's needed.",
+      "post2.body2": "Watch for fewer wet diapers, a dry mouth, or unusual tiredness — these can be early signs of dehydration. A quick call is always better than waiting and wondering.",
+      "post3.tag": "Infectious diseases", "post3.date": "20 May 2026",
+      "post3.title": "Influenza & RSV: what every parent should know",
+      "post3.body1": "Respiratory viruses like influenza and RSV spread easily among children and can be more serious in babies and those with underlying conditions. Good handwashing, staying home when sick, and keeping vaccinations up to date remain our strongest everyday protections.",
+      "post3.body2": "If your child has difficulty breathing, a persistent high fever, or is feeding poorly, don't wait — reach out. Early assessment makes all the difference, and that is what we're here for.",
+      "post.share": "Share:",
+      "comments.title": "Questions & comments",
+      "comments.sub": "A comments space can be added here so families can ask questions under each post. We'll set this up once you choose how you'd like it to work.",
+
+      /* Contact */
+      "contact.kicker": "Visit & contact",
+      "contact.h1": "We're here when you need us.",
+      "contact.sub": "Come see us at the clinic in Jbeil, or call to book a consultation. For emergencies concerning a current patient, the on-call line is always open.",
+      "hours.eyebrow": "Clinic hours",
+      "hours.title": "When you can see Dr. Ziad.",
+      "hours.p": "Consultations are held at the clinic in Jbeil on a fixed weekly schedule. Outside these hours, Dr. Ziad remains reachable on call for emergencies concerning his patients.",
+      "oncall.title": "24/7 On Call",
+      "oncall.desc": "For genuine emergencies, day or night — including weekends and holidays.",
+      "sched.day": "Day", "sched.hours": "Hours",
+      "day.mon": "Monday", "day.tue": "Tuesday", "day.wed": "Wednesday",
+      "day.thu": "Thursday", "day.fri": "Friday", "day.weekend": "Sat · Sun",
+      "time.pm": "3:00 – 8:00 PM", "time.am": "10:00 AM – 2:00 PM", "sched.oncall": "On call only",
+      "contact.eyebrow": "Reach us",
+      "contact.title2": "Address & contact",
+      "contact.sub2": "To book a consultation, call Layla, the secretary. For emergencies concerning a current patient, Dr. Ziad's line is always open.",
+      "contact.addr.label": "Clinic address",
+      "contact.addr.val": "Centre Matignon, 4th floor — Jbeil, Lebanon",
+      "contact.book.label": "Book a consultation — Layla (Secretary)",
+      "contact.direct.label": "Dr. Ziad — direct / on-call",
+      "contact.email.label": "Email",
+      "contact.oncall.label": "On call",
+      "contact.oncall.val": "24 hours, 7 days a week — for emergencies",
+      "contact.btn.call": "Call to Book",
+      "contact.btn.wa": "WhatsApp Layla",
+      "map.caption": "Centre Matignon — Jbeil",
+      "map.open": "Open in Google Maps",
+      "hosp.eyebrow": "Hospital affiliations",
+      "hosp.title": "Also practicing at two trusted hospitals in Jbeil.",
+      "hosp.sub": "Beyond the clinic, Dr. Ziad consults and admits patients at the following hospitals in the Jbeil region.",
+      "hosp.loc": "Jbeil, Lebanon",
+      "hosp1.name": "Notre-Dame Maritime Hospital",
+      "hosp2.name": "Saint Maounet Hospital",
+
+      /* Feedback */
+      "fb.kicker": "Your visit",
+      "fb.h1": "How was your experience?",
+      "fb.sub": "Your feedback helps us care for your family even better. It only takes a moment — thank you for sharing.",
+      "fb.rating": "Your rating",
+      "fb.msg.label": "Your feedback",
+      "fb.msg.ph": "Tell us about your visit — what went well, and anything we could do better…",
+      "fb.name.label": "Your name",
+      "fb.name.ph": "Optional",
+      "fb.phone.label": "Phone",
+      "fb.phone.ph": "Optional",
+      "fb.optional": "optional",
+      "fb.submit": "Send feedback",
+      "fb.thanks.title": "Thank you!",
+      "fb.thanks.msg": "Your feedback has been received. We're grateful you took the time — it means a lot to Dr. Ziad and the team.",
+
+      "footer.rights": "All rights reserved.",
+      "footer.disc": "This website is informational and does not provide medical advice. In an emergency, call your local emergency number."
+    },
+
+    /* ============================ FRANÇAIS ============================ */
+    fr: {
+      "topbar": "Disponible <strong>24h/24 et 7j/7 de garde</strong> — votre enfant n'est jamais seul avec nous",
+      "brand.role": "Pédiatrie & Maladies infectieuses",
+      "nav.home": "Accueil", "nav.about": "À propos", "nav.updates": "Actualités", "nav.contact": "Contact",
+      "nav.feedback": "Avis", "nav.cta": "Prendre RDV",
+
+      "home.cred": "Spécialiste en pédiatrie et maladies infectieuses",
+      "hero.eyebrow": "Jbeil, Liban",
+      "hero.title": "Concentrez-vous sur l'amour.<br /><span class=\"accent\">Nous gérons l'inquiétude.</span>",
+      "hero.lead": "Le <strong>Dr Ziad El Hachem</strong> est spécialiste en pédiatrie et maladies infectieuses, et un nom connu et de confiance pour les familles de toute la région de Jbeil. Une attention sans hâte, une main tendue à 3 h du matin, et la certitude apaisante que votre enfant est entre les meilleures mains.",
+      "hero.cta1": "Visite & contact",
+      "hero.cta2": "Découvrir le Dr Ziad",
+      "hero.assurance": "Toujours à un appel — n'hésitez jamais.",
+      "portrait.caption": "Portrait du Dr Ziad",
+      "badge.text": "ans au service<br />des enfants",
+      "trust.1": "Ans au service des enfants",
+      "trust.2": "Hôpitaux à Jbeil",
+      "trust.3": "Joignable en urgence",
+      "trust.4": "L'enfant au centre — le vôtre",
+      "home.care.eyebrow": "Notre approche",
+      "home.care.title": "Des soins que toute la famille ressent.",
+      "home.care.sub": "La différence n'est pas seulement l'expertise médicale — c'est l'attention, la patience, et un médecin qui connaît vraiment votre enfant.",
+      "home.care.link": "En savoir plus sur nos soins",
+      "home.upd.eyebrow": "Par le Dr Ziad",
+      "home.upd.title": "Conseils santé & actualités de la clinique",
+      "home.upd.sub": "Conseils de saison, rappels et annonces — directement du médecin.",
+      "home.upd.read": "Lire la suite",
+      "home.upd.link": "Voir toutes les actualités",
+      "home.cta.title": "Une question concernant votre enfant ?",
+      "home.cta.sub": "Contactez la clinique à Jbeil, ou appelez pour prendre rendez-vous. Nous sommes là quand vous avez besoin de nous.",
+      "home.cta.btn": "Contacter la clinique",
+
+      "about.kicker": "À propos du médecin",
+      "about.h1": "Dr Ziad El Hachem",
+      "about.tagline": "Spécialiste en pédiatrie et maladies infectieuses — le médecin que les parents appellent en premier.",
+      "about.eyebrow": "Qui est-il",
+      "about.title": "Une expertise de confiance, une attention qui se ressent.",
+      "about.p1": "Le Dr Ziad El Hachem est spécialiste en pédiatrie et maladies infectieuses, et un nom connu et de confiance pour les familles de toute la région de Jbeil. Les parents viennent à lui non seulement pour son expertise, mais pour la rare qualité de son écoute.",
+      "about.p2": "Il écoute. Il explique. Il reste en ligne jusqu'à ce que vous puissiez de nouveau respirer. Sa pratique repose sur une conviction simple : la santé d'un enfant est trop importante pour être bâclée — chaque consultation reçoit le temps qu'elle mérite, et chaque famille est traitée comme la sienne.",
+      "about.point1": "Pédiatrie du nouveau-né à l'adolescent",
+      "about.point2": "Maladies infectieuses — grippe, virus respiratoires & infections de l'enfant",
+      "about.point3": "Joignable personnellement pour les vraies urgences, 24h/24",
+      "about.photo": "Photo du Dr Ziad",
+
+      "phil.eyebrow": "Nos soins",
+      "phil.title": "Ce que nous offrons de plus précieux, c'est la tranquillité d'esprit.",
+      "phil.sub": "Ici, votre enfant reçoit une attention sans hâte, un jugement attentif, et un médecin qui répond quand cela compte. C'est la différence que les familles ressentent — et retiennent.",
+      "card1.title": "Consultations sans hâte",
+      "card1.desc": "Pas de chaîne. Votre rendez-vous dure aussi longtemps que votre enfant en a besoin — les questions sont les bienvenues, rien n'est négligé.",
+      "card2.title": "Un médecin de garde",
+      "card2.desc": "Fièvre à minuit ? Une toux inquiétante un dimanche ? Vous joignez le Dr Ziad — pas un inconnu, pas une file d'attente, à toute heure.",
+      "card3.title": "Des soins qui se souviennent",
+      "card3.desc": "Votre enfant est connu ici — son histoire, ses particularités, sa croissance — pas un nouveau dossier à chaque visite.",
+      "card4.title": "L'excellence sans compromis",
+      "card4.desc": "Le meilleur jugement, les bonnes orientations, un suivi attentif. Quand il s'agit de votre enfant, « assez bien » ne suffit pas.",
+      "pullquote": "« Confiez-nous votre inquiétude. Nous veillons sur eux — et sur vous. »",
+
+      "serv.eyebrow": "Domaines de soins",
+      "serv.title": "Des soins pédiatriques complets, dès le premier souffle.",
+      "s1.title": "Soins du nouveau-né et du nourrisson", "s1.desc": "Premiers examens, alimentation, sommeil et accompagnement du développement précoce.",
+      "s2.title": "Infections & fièvre", "s2.desc": "Évaluation experte de la grippe, des virus respiratoires et des infections infantiles courantes.",
+      "s3.title": "Vaccinations", "s3.desc": "Vaccinations complètes et à jour, avec des conseils clairs pour les parents.",
+      "s4.title": "Croissance et développement", "s4.desc": "Suivi des étapes, nutrition et croissance saine à tout âge.",
+      "s5.title": "Examens de routine", "s5.desc": "Des visites de bien-être régulières pour que votre enfant s'épanouisse.",
+      "s6.title": "Accompagnement des parents", "s6.desc": "Des réponses honnêtes et du réconfort — car prendre soin d'un enfant est un partenariat.",
+
+      "upd.kicker": "Conseils santé & actualités",
+      "upd.h1": "Le mot du Dr Ziad",
+      "upd.sub": "Conseils de saison, rappels et annonces de la clinique — écrits par le médecin, pour les familles dont il prend soin.",
+      "post1.tag": "Santé de saison", "post1.date": "15 juin 2026",
+      "post1.title": "Fièvres de l'été : quand s'inquiéter, et quand patienter",
+      "post1.excerpt": "Une température élevée est l'une des raisons les plus fréquentes d'appel. Voici un guide calme et pratique : ce qui est normal, ce qui aide, et les signes qui indiquent qu'il faut consulter.",
+      "post1.body1": "Une température élevée est l'une des raisons les plus fréquentes d'appel — et le plus souvent, la fièvre est simplement le signe que le corps de votre enfant combat une infection, comme il le doit. Gardez votre enfant à l'aise, offrez-lui beaucoup à boire, et observez son comportement, pas seulement le chiffre du thermomètre.",
+      "post1.body2": "Appelez-nous si un bébé de moins de trois mois a de la fièvre, si une fièvre dure plus de trois jours, ou si votre enfant est anormalement somnolent, respire vite ou est difficile à réveiller. En cas de doute, la ligne de garde est là pour ça.",
+      "post2.tag": "Soins du quotidien", "post2.date": "2 juin 2026",
+      "post2.title": "Bien hydrater les tout-petits par temps chaud",
+      "post2.body1": "Quand les températures montent, les jeunes enfants perdent vite leurs liquides et ne réclament pas toujours à boire. Proposez de petites gorgées souvent, habillez-les légèrement, et évitez le soleil de midi. Pour les bébés allaités, des tétées plus fréquentes suffisent généralement.",
+      "post2.body2": "Surveillez les couches moins mouillées, la bouche sèche ou une fatigue inhabituelle — ce sont des signes précoces de déshydratation. Un appel rapide vaut toujours mieux que d'attendre dans le doute.",
+      "post3.tag": "Maladies infectieuses", "post3.date": "20 mai 2026",
+      "post3.title": "Grippe & VRS : ce que chaque parent devrait savoir",
+      "post3.body1": "Les virus respiratoires comme la grippe et le VRS se transmettent facilement entre enfants et peuvent être plus graves chez les bébés et les enfants fragiles. Un bon lavage des mains, rester à la maison en cas de maladie, et des vaccinations à jour restent nos meilleures protections au quotidien.",
+      "post3.body2": "Si votre enfant a du mal à respirer, une fièvre élevée persistante, ou s'alimente mal, n'attendez pas — contactez-nous. Une évaluation précoce fait toute la différence, et c'est pour cela que nous sommes là.",
+      "post.share": "Partager :",
+      "comments.title": "Questions & commentaires",
+      "comments.sub": "Un espace de commentaires peut être ajouté ici pour que les familles posent leurs questions sous chaque article. Nous le mettrons en place une fois que vous aurez choisi son fonctionnement.",
+
+      "contact.kicker": "Visite & contact",
+      "contact.h1": "Nous sommes là quand vous avez besoin de nous.",
+      "contact.sub": "Venez nous voir à la clinique à Jbeil, ou appelez pour prendre rendez-vous. Pour les urgences concernant un patient suivi, la ligne de garde est toujours ouverte.",
+      "hours.eyebrow": "Horaires de la clinique",
+      "hours.title": "Quand consulter le Dr Ziad.",
+      "hours.p": "Les consultations ont lieu à la clinique de Jbeil selon un horaire hebdomadaire fixe. En dehors de ces heures, le Dr Ziad reste joignable de garde pour les urgences concernant ses patients.",
+      "oncall.title": "De garde 24h/24",
+      "oncall.desc": "Pour les véritables urgences, jour et nuit — y compris week-ends et jours fériés.",
+      "sched.day": "Jour", "sched.hours": "Horaires",
+      "day.mon": "Lundi", "day.tue": "Mardi", "day.wed": "Mercredi",
+      "day.thu": "Jeudi", "day.fri": "Vendredi", "day.weekend": "Sam · Dim",
+      "time.pm": "15h00 – 20h00", "time.am": "10h00 – 14h00", "sched.oncall": "De garde uniquement",
+      "contact.eyebrow": "Nous joindre",
+      "contact.title2": "Adresse & contact",
+      "contact.sub2": "Pour prendre rendez-vous, appelez Layla, la secrétaire. Pour les urgences concernant un patient suivi, la ligne du Dr Ziad est toujours ouverte.",
+      "contact.addr.label": "Adresse de la clinique",
+      "contact.addr.val": "Centre Matignon, 4e étage — Jbeil, Liban",
+      "contact.book.label": "Prendre rendez-vous — Layla (secrétaire)",
+      "contact.direct.label": "Dr Ziad — ligne directe / de garde",
+      "contact.email.label": "E-mail",
+      "contact.oncall.label": "De garde",
+      "contact.oncall.val": "24h/24, 7j/7 — pour les urgences",
+      "contact.btn.call": "Appeler pour un RDV",
+      "contact.btn.wa": "WhatsApp Layla",
+      "map.caption": "Centre Matignon — Jbeil",
+      "map.open": "Ouvrir dans Google Maps",
+      "hosp.eyebrow": "Affiliations hospitalières",
+      "hosp.title": "Exerce aussi dans deux hôpitaux de confiance à Jbeil.",
+      "hosp.sub": "Au-delà de la clinique, le Dr Ziad consulte et hospitalise dans les hôpitaux suivants de la région de Jbeil.",
+      "hosp.loc": "Jbeil, Liban",
+      "hosp1.name": "Hôpital Notre-Dame Maritime",
+      "hosp2.name": "Hôpital Saint Maounet",
+
+      "fb.kicker": "Votre visite",
+      "fb.h1": "Comment s'est passée votre visite ?",
+      "fb.sub": "Votre avis nous aide à mieux prendre soin de votre famille. Cela ne prend qu'un instant — merci de le partager.",
+      "fb.rating": "Votre note",
+      "fb.msg.label": "Votre avis",
+      "fb.msg.ph": "Parlez-nous de votre visite — ce qui s'est bien passé, et ce que nous pourrions améliorer…",
+      "fb.name.label": "Votre nom",
+      "fb.name.ph": "Facultatif",
+      "fb.phone.label": "Téléphone",
+      "fb.phone.ph": "Facultatif",
+      "fb.optional": "facultatif",
+      "fb.submit": "Envoyer mon avis",
+      "fb.thanks.title": "Merci !",
+      "fb.thanks.msg": "Votre avis a bien été reçu. Merci d'avoir pris le temps — cela compte beaucoup pour le Dr Ziad et son équipe.",
+
+      "footer.rights": "Tous droits réservés.",
+      "footer.disc": "Ce site est informatif et ne fournit pas d'avis médical. En cas d'urgence, appelez votre numéro d'urgence local."
+    },
+
+    /* ============================ العربية ============================ */
+    ar: {
+      "topbar": "متاح <strong>24/7 عند الطلب</strong> — طفلك ليس وحيدًا أبدًا معنا",
+      "brand.role": "طب الأطفال والأمراض المُعدية",
+      "nav.home": "الرئيسية", "nav.about": "عن الطبيب", "nav.updates": "مستجدّات", "nav.contact": "اتصل بنا",
+      "nav.feedback": "رأيكم", "nav.cta": "احجز موعدًا",
+
+      "home.cred": "اختصاصي طب الأطفال والأمراض المُعدية",
+      "hero.eyebrow": "جبيل، لبنان",
+      "hero.title": "ركّزوا على الحب.<br /><span class=\"accent\">ونحن نتكفّل بالقلق.</span>",
+      "hero.lead": "<strong>الدكتور زياد الهاشم</strong> اختصاصي في طب الأطفال والأمراض المُعدية، واسمٌ معروف وموثوق لدى العائلات في منطقة جبيل. اهتمام دون عجلة، ويدٌ تمتدّ عند الثالثة فجرًا، ويقينٌ هادئ بأن طفلك في أفضل رعاية.",
+      "hero.cta1": "الزيارة والتواصل",
+      "hero.cta2": "تعرّفوا على الدكتور زياد",
+      "hero.assurance": "دائمًا على بُعد اتصال — لا تترددوا أبدًا.",
+      "portrait.caption": "صورة الدكتور زياد",
+      "badge.text": "عامًا في<br />رعاية الأطفال",
+      "trust.1": "عامًا في رعاية الأطفال",
+      "trust.2": "مستشفيان في جبيل",
+      "trust.3": "متاح للطوارئ",
+      "trust.4": "الطفل في المركز — طفلكم",
+      "home.care.eyebrow": "كيف نرعى",
+      "home.care.title": "رعاية تشعر بها العائلة كلها.",
+      "home.care.sub": "الفرق ليس في الخبرة الطبية وحدها — بل في الاهتمام والصبر، وطبيبٍ يعرف طفلك حقًا.",
+      "home.care.link": "المزيد عن رعايتنا",
+      "home.upd.eyebrow": "بقلم الدكتور زياد",
+      "home.upd.title": "نصائح صحية ومستجدّات العيادة",
+      "home.upd.sub": "نصائح موسمية وتذكيرات وإعلانات — مباشرةً من الطبيب.",
+      "home.upd.read": "اقرأ المزيد",
+      "home.upd.link": "كل المستجدّات",
+      "home.cta.title": "هل لديك سؤال عن طفلك؟",
+      "home.cta.sub": "تواصلوا مع العيادة في جبيل، أو اتصلوا لحجز استشارة. نحن هنا حين تحتاجوننا.",
+      "home.cta.btn": "تواصلوا مع العيادة",
+
+      "about.kicker": "عن الطبيب",
+      "about.h1": "الدكتور زياد الهاشم",
+      "about.tagline": "اختصاصي في طب الأطفال والأمراض المُعدية — وطبيبٌ يثق به الأهل من أول اتصال.",
+      "about.eyebrow": "من هو",
+      "about.title": "خبرةٌ تثقون بها، واهتمامٌ تشعرون به.",
+      "about.p1": "الدكتور زياد الهاشم اختصاصي في طب الأطفال والأمراض المُعدية، واسمٌ معروف وموثوق لدى العائلات في منطقة جبيل. يأتي إليه الأهل ليس لخبرته فحسب، بل لجودة إصغائه النادرة.",
+      "about.p2": "يستمع، ويشرح، ويبقى معك على الخط حتى تستعيد أنفاسك. تقوم ممارسته على قناعة بسيطة: صحة الطفل أثمن من أن نتسرّع فيها — فكل استشارة تأخذ وقتها الكامل، وكل عائلة تُعامَل كأنها عائلته.",
+      "about.point1": "طب الأطفال من حديثي الولادة إلى المراهقين",
+      "about.point2": "الأمراض المُعدية — الإنفلونزا والفيروسات التنفسية وعدوى الطفولة",
+      "about.point3": "متاح شخصيًا في الحالات الطارئة الحقيقية، على مدار الساعة",
+      "about.photo": "صورة الدكتور زياد",
+
+      "phil.eyebrow": "رعايتنا",
+      "phil.title": "أثمن ما نقدّمه هو راحة البال.",
+      "phil.sub": "هنا ينال طفلك اهتمامًا دون عجلة، وتقديرًا دقيقًا، وطبيبًا يجيب حين يكون الأمر مهمًا. هذا هو الفرق الذي تشعر به العائلات — وتتذكّره.",
+      "card1.title": "استشارات دون عجلة",
+      "card1.desc": "لا قوالب جاهزة. موعدك يطول بقدر ما يحتاجه طفلك — الأسئلة مُرحَّب بها، ولا شيء يُهمَل.",
+      "card2.title": "طبيب عند الطلب",
+      "card2.desc": "حمّى منتصف الليل؟ سعالٌ مقلق يوم الأحد؟ تصل إلى الدكتور زياد — لا غريب ولا انتظار، على مدار الساعة.",
+      "card3.title": "رعاية تتذكّر",
+      "card3.desc": "طفلك معروف هنا — تاريخه وطباعه ونموّه — لا ملف جديد في كل زيارة.",
+      "card4.title": "تميّز بلا تنازل",
+      "card4.desc": "أفضل تقدير، والإحالات الصحيحة، ومتابعة دقيقة. حين يتعلّق الأمر بطفلك، فإن «جيد بما يكفي» لا يكفي.",
+      "pullquote": "«دعوا قلقكم لنا. نحن نرعاهم — ونرعاكم.»",
+
+      "serv.eyebrow": "مجالات الرعاية",
+      "serv.title": "رعاية شاملة للأطفال، منذ النفَس الأول.",
+      "s1.title": "رعاية حديثي الولادة والرضّع", "s1.desc": "الفحوصات الأولى، والتغذية، والنوم، وإرشاد النمو المبكر.",
+      "s2.title": "العدوى والحمّى", "s2.desc": "تقييم خبير للإنفلونزا والفيروسات التنفسية وعدوى الطفولة الشائعة.",
+      "s3.title": "التطعيمات", "s3.desc": "تطعيمات كاملة وفق المواعيد مع إرشاد واضح للأهل.",
+      "s4.title": "النمو والتطوّر", "s4.desc": "متابعة مراحل النمو والتغذية والنمو السليم في كل عمر.",
+      "s5.title": "الفحوصات الدورية", "s5.desc": "زيارات دورية للاطمئنان على نموّ طفلك وازدهاره.",
+      "s6.title": "إرشاد الأهل", "s6.desc": "إجابات صادقة وطمأنينة — فرعاية الطفل شراكة.",
+
+      "upd.kicker": "نصائح صحية ومستجدّات",
+      "upd.h1": "من مكتب الدكتور زياد",
+      "upd.sub": "نصائح موسمية وتذكيرات وإعلانات العيادة — بقلم الطبيب، للعائلات التي يرعاها.",
+      "post1.tag": "صحة موسمية", "post1.date": "15 حزيران 2026",
+      "post1.title": "حمّى الصيف: متى نقلق ومتى ننتظر",
+      "post1.excerpt": "ارتفاع الحرارة من أكثر أسباب اتصال الأهل. إليكم دليلاً هادئًا وعمليًا: ما هو الطبيعي، وما الذي يساعد، والعلامات التي تستدعي التواصل.",
+      "post1.body1": "ارتفاع الحرارة من أكثر أسباب اتصال الأهل — وفي معظم الأحيان تكون الحمّى ببساطة علامة على أن جسم طفلك يقاوم العدوى كما ينبغي. أبقِ طفلك مرتاحًا، وقدّم له الكثير من السوائل، وراقب سلوكه لا رقم الترمومتر وحده.",
+      "post1.body2": "اتصلوا بنا إذا أصيب رضيع دون الثلاثة أشهر بأي حمّى، أو إذا استمرّت الحمّى أكثر من ثلاثة أيام، أو إذا كان طفلك خاملًا بشكل غير معتاد أو يتنفّس بسرعة أو يصعب إيقاظه. عند الشك، فإن خط الطوارئ موجود لهذا الغرض.",
+      "post2.tag": "رعاية يومية", "post2.date": "2 حزيران 2026",
+      "post2.title": "إبقاء الصغار رطبين في الحرّ",
+      "post2.body1": "مع ارتفاع الحرارة، يفقد الأطفال الصغار السوائل بسرعة ولا يطلبون الماء دائمًا. قدّموا رشفات صغيرة بشكل متكرر، وألبسوهم ملابس خفيفة، وتجنّبوا شمس الظهيرة. أما الرضّع، فعادةً تكفي رضعات أكثر تكرارًا.",
+      "post2.body2": "راقبوا قلّة الحفاضات المبلّلة، أو جفاف الفم، أو التعب غير المعتاد — فهذه علامات مبكرة على الجفاف. اتصالٌ سريع دائمًا أفضل من الانتظار والحَيرة.",
+      "post3.tag": "الأمراض المُعدية", "post3.date": "20 أيار 2026",
+      "post3.title": "الإنفلونزا وفيروس RSV: ما يجب أن يعرفه كل أهل",
+      "post3.body1": "تنتشر الفيروسات التنفسية مثل الإنفلونزا و RSV بسهولة بين الأطفال وقد تكون أخطر لدى الرضّع وأصحاب الحالات المزمنة. يبقى غسل اليدين جيدًا، والبقاء في المنزل عند المرض، وتحديث التطعيمات، أقوى وسائل حمايتنا اليومية.",
+      "post3.body2": "إذا واجه طفلك صعوبة في التنفّس، أو حمّى عالية مستمرة، أو ضعفًا في الرضاعة، فلا تنتظروا — تواصلوا معنا. التقييم المبكر يصنع الفارق، ولهذا نحن هنا.",
+      "post.share": "شارِك:",
+      "comments.title": "أسئلة وتعليقات",
+      "comments.sub": "يمكن إضافة مساحة للتعليقات هنا ليطرح الأهل أسئلتهم تحت كل منشور. سنفعّلها بمجرد اختياركم لطريقة عملها.",
+
+      "contact.kicker": "الزيارة والتواصل",
+      "contact.h1": "نحن هنا حين تحتاجوننا.",
+      "contact.sub": "زورونا في العيادة بجبيل، أو اتصلوا لحجز استشارة. وللطوارئ المتعلقة بمريض حالي، خط الطوارئ مفتوح دائمًا.",
+      "hours.eyebrow": "مواعيد العيادة",
+      "hours.title": "متى يمكنكم زيارة الدكتور زياد.",
+      "hours.p": "تُجرى الاستشارات في العيادة بجبيل وفق جدول أسبوعي ثابت. وخارج هذه الأوقات يبقى الدكتور زياد متاحًا عند الطلب لطوارئ مرضاه.",
+      "oncall.title": "عند الطلب 24/7",
+      "oncall.desc": "للحالات الطارئة الحقيقية، ليلاً ونهارًا — بما في ذلك العطل والأعياد.",
+      "sched.day": "اليوم", "sched.hours": "الساعات",
+      "day.mon": "الإثنين", "day.tue": "الثلاثاء", "day.wed": "الأربعاء",
+      "day.thu": "الخميس", "day.fri": "الجمعة", "day.weekend": "السبت · الأحد",
+      "time.pm": "3:00 – 8:00 مساءً", "time.am": "10:00 ص – 2:00 ظهرًا", "sched.oncall": "عند الطلب فقط",
+      "contact.eyebrow": "تواصلوا معنا",
+      "contact.title2": "العنوان والتواصل",
+      "contact.sub2": "لحجز استشارة، اتصلوا بالسكرتيرة ليلى. وللطوارئ المتعلقة بمريض حالي، خط الدكتور زياد مفتوح دائمًا.",
+      "contact.addr.label": "عنوان العيادة",
+      "contact.addr.val": "مركز ماتينيون، الطابق الرابع — جبيل، لبنان",
+      "contact.book.label": "حجز استشارة — ليلى (السكرتيرة)",
+      "contact.direct.label": "الدكتور زياد — مباشر / طوارئ",
+      "contact.email.label": "البريد الإلكتروني",
+      "contact.oncall.label": "عند الطلب",
+      "contact.oncall.val": "24 ساعة، 7 أيام في الأسبوع — للطوارئ",
+      "contact.btn.call": "اتصلوا للحجز",
+      "contact.btn.wa": "واتساب ليلى",
+      "map.caption": "مركز ماتينيون — جبيل",
+      "map.open": "افتح في خرائط جوجل",
+      "hosp.eyebrow": "المستشفيات المعتمدة",
+      "hosp.title": "يمارس أيضًا في مستشفيين موثوقين في جبيل.",
+      "hosp.sub": "إلى جانب العيادة، يستقبل الدكتور زياد مرضاه ويُدخلهم في المستشفيين التاليين في منطقة جبيل.",
+      "hosp.loc": "جبيل، لبنان",
+      "hosp1.name": "مستشفى نوتردام ماريتيم",
+      "hosp2.name": "مستشفى سان ماونيه",
+
+      "fb.kicker": "زيارتكم",
+      "fb.h1": "كيف كانت تجربتكم؟",
+      "fb.sub": "رأيكم يساعدنا على العناية بعائلتكم بشكل أفضل. لا يستغرق سوى لحظة — شكرًا لمشاركتكم.",
+      "fb.rating": "تقييمكم",
+      "fb.msg.label": "رأيكم",
+      "fb.msg.ph": "أخبرونا عن زيارتكم — ما الذي سار جيدًا، وما الذي يمكننا تحسينه…",
+      "fb.name.label": "الاسم",
+      "fb.name.ph": "اختياري",
+      "fb.phone.label": "الهاتف",
+      "fb.phone.ph": "اختياري",
+      "fb.optional": "اختياري",
+      "fb.submit": "إرسال الرأي",
+      "fb.thanks.title": "شكرًا لكم!",
+      "fb.thanks.msg": "تم استلام رأيكم. ممتنّون لوقتكم — فهذا يعني الكثير للدكتور زياد وفريقه.",
+
+      "footer.rights": "جميع الحقوق محفوظة.",
+      "footer.disc": "هذا الموقع للمعلومات فقط ولا يقدّم استشارة طبية. في حالة الطوارئ، اتصلوا برقم الطوارئ المحلي."
+    }
+  };
+
+  const RTL = { ar: true };
+  const STORAGE_KEY = "drziad-lang";
+
+  function applyLang(lang) {
+    if (!T[lang]) lang = "en";
+    const dict = T[lang];
+    const html = document.documentElement;
+
+    html.setAttribute("lang", lang);
+    html.setAttribute("dir", RTL[lang] ? "rtl" : "ltr");
+
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.getAttribute("data-i18n");
+      if (dict[key] != null) el.textContent = dict[key];
+    });
+    document.querySelectorAll("[data-i18n-html]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-html");
+      if (dict[key] != null) el.innerHTML = dict[key];
+    });
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-placeholder");
+      if (dict[key] != null) el.setAttribute("placeholder", dict[key]);
+    });
+
+    document.querySelectorAll(".lang-switch button[data-lang]").forEach((btn) => {
+      btn.classList.toggle("is-active", btn.getAttribute("data-lang") === lang);
+    });
+
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+  }
+
+  document.querySelectorAll(".lang-switch button[data-lang]").forEach((btn) => {
+    btn.addEventListener("click", () => applyLang(btn.getAttribute("data-lang")));
+  });
+
+  let initial = "en";
+  try { initial = localStorage.getItem(STORAGE_KEY) || initial; } catch (e) {}
+  if (!localStorage.getItem(STORAGE_KEY)) {
+    const nav = (navigator.language || "en").slice(0, 2).toLowerCase();
+    initial = T[nav] ? nav : "en";
+  }
+  applyLang(initial);
+
+  window.__setLang = applyLang;
+})();
